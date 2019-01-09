@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Survey</h1>
+    <form action="/api/friends" method="POST">
+        <label for="name">What is your name?</label>
+        <input type="text" name="name" id="name">
+        <div>How active are you on a scale of 1-5?</div>
+        <input type="number" name="q1" min="1" max="5">
+        <div>How do you rate your interest in dogs on a scale of 1-5?</div>
+        <input type="number" name="q2" min="1" max="5">
+        <div>How do you rate your interest in cats on a scale of 1-5?</div>
+        <input type="number" name="q3" min="1" max="5">
+        <div>How messy are you as a person on a scale of 1-5?</div>
+        <input type="number" name="q4" min="1" max="5">
+        <div>How outgoing and sociable are you on a scale of 1-5?</div>
+        <input type="number" name="q5" min="1" max="5">
+        <div>How likely are you to go to social events on a scale of 1-5?</div>
+        <input type="number" name="q6" min="1" max="5">
+        <div>How do you rate mornings on a scale of 1-5?</div>
+        <input type="number" name="q7" min="1" max="5">
+        <div>How do you rate vegetables on a scale of 1-5?</div>
+        <input type="number" name="q8" min="1" max="5">
+        <div>How do you rate meat on a scale of 1-5?</div>
+        <input type="number" name="q9" min="1" max="5">
+        <div>How do you rate monkeys on a scale of 1-5?</div>
+        <input type="number" name="q10" min="1" max="5">
+        <input type="submit">
+    </form>
+</body>
+
+</html>
